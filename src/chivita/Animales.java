@@ -1,0 +1,122 @@
+package chivita;
+
+import java.util.Random;
+
+/**
+ * Lista de 100 animales diferentes
+ *
+ * * @author adria
+ */
+public enum Animales {
+    Tortuga,
+    Albatros,
+    Caimán,
+    Alpaca,
+    Hormiga,
+    Escarabajo,
+    Antílope,
+    Mono,
+    Armadillo,
+    Burro,
+    Mandril,
+    Tejón,
+    Barracuda,
+    Murciélago,
+    Oso,
+    Castor,
+    Abeja,
+    Bisonte,
+    Jabalí,
+    Búfalo,
+    Mariposa,
+    Camello,
+    Capibara,
+    Caribú,
+    Casuario,
+    Gato,
+    Oruga,
+    Ganado,
+    Gamuza,
+    Guepardo,
+    Pollo,
+    Chimpancé,
+    Chinchilla,
+    Chova,
+    Almeja,
+    Cobra,
+    Cucaracha,
+    Bacalao,
+    Cormorán,
+    Coyote,
+    Cangrejo,
+    Grulla,
+    Cocodrilo,
+    Cuervo,
+    Zarapito,
+    Ciervo,
+    Dinosaurio,
+    Perro,
+    Foca,
+    Delfín,
+    Lechuza,
+    Paloma,
+    Libélula,
+    Pato,
+    Hipopotamo,
+    Calidris,
+    Águila,
+    Equidna,
+    Anguila,
+    Eland,
+    Elefante,
+    Alce,
+    Emú,
+    Halcón,
+    Hurón,
+    Pinzón,
+    Lobo,
+    Flamenco,
+    Mosca,
+    Zorro,
+    Rana,
+    Zorrino,
+    Gacela,
+    Jerbo,
+    Jirafa,
+    Mosquito,
+    Pantera,
+    Cabra,
+    Jilguero,
+    Hornero,
+    Ganso,
+    Gorila,
+    Loro,
+    Saltamontes,
+    Urogallo,
+    Guanaco,
+    Gaviota,
+    Hámster,
+    Liebre,
+    Mapache,
+    Erizo,
+    Garza,
+    Arenque,
+    Hipopótamo,
+    Avispón,
+    Caballo,
+    Humano,
+    Colibrí,
+    Hiena,
+    Íbice;
+
+    /**
+     * Devuelve un animal aleotario de la lista
+     *
+     * @return nombre del animal como string
+     */
+    public static String obtenerAnimalRandom() {
+        Random random = new Random();
+        int numeroRandom = random.nextInt(Animales.values().length);
+        return Animales.values()[numeroRandom].toString();
+    }
+}
