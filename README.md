@@ -13,10 +13,10 @@ linea toma 1 milisegundo entonces el valor final de la variable
 representa el tiempo total necesario.
 
 # MODO DE USO:
-Ingrese el valor de repeticiones que la canción realizará
+Descargue este repositorio y abralo en su IDE (Netbeans, IntelliJ,etc ). Ingrese el valor de repeticiones que la canción realizará
 en la variable ``private static final Integer N`` dentro de ``src\chivita\Chivita.java`` y ejecute el programa. Al finalizar podra ver en
 consola el tiempo total necesario que tomó imprimir las lineas de la
-canción (suponiendo que cada linea demora 1 milisegundo) Pruebe los valores de N a continuación y deberá obtener los siguiente tiempos:
+canción (suponiendo que cada linea demora 1 milisegundo). Pruebe los valores de N a continuación y deberá obtener los siguiente tiempos:
 | N    | Tiempo |
 | ---- | -------|
 | 1    | 4      |
