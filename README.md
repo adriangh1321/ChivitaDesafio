@@ -1,5 +1,5 @@
 # CHIVITA DESAFIO
-Desafío desarrollado para una oferta laboral
+Desafío desarrollado para una oferta laboral desarrollado en Java jdk-11.0.14.1+1
 
 # DESCRIPCIÓN DEL PROGRAMA: 
 Este programa es una version ampliada y
